@@ -7,4 +7,4 @@ every hole is a par 3
 
 lowest score wins!
 
-[View Scorecard] (https://chadless1.github.io/bucketgolf_scorecard/)
+[View Scorecard](https://chadless1.github.io/bucketgolf_scorecard/)
