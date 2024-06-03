@@ -26,17 +26,20 @@ td {
 }
 table {
 
-	background-color: lightgrey;
+	background-color: white;
 }
 img {
 
 	width: 100%;
 }
+
 </style>
   <body>
 	<div class="jumbotron">
+		<a href="https://www.bucketgolfgame.com/" target="_blank">
 		<img src="bg_logo.png">
-	  </div>
+		</a>
+	</div>
 	</br>
     <h1>Scorecard</h1>
     </br>
@@ -44,122 +47,83 @@ img {
     <div class="table-responsive">
 	<table id="table" class="table table-bordered" style="width:100%">
 
-	<tr>
-	<th class="bg-primary">Player</th>
-	<th class="bg-primary">Hole 1</th>
-	<th class="bg-primary">Hole 2</th>
-	<th class="bg-primary">Hole 3</th>
-	<th class="bg-primary">Par</th>
-	<th class="bg-primary">Score</th>
-	</tr>
-
-	<tr>
-	<td contenteditable="true">Player 1</td>
-	<td id="p1_h1s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p1_h2s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p1_h3s" contenteditable="true" inputmode="decimal"></td>
-	<td contenteditable="false">9</td>
-	<td id="p1s" contenteditable="false"></td>
-	</tr>
-
-	<tr>
-	<td contenteditable="true">Player 2</td>
-	<td id="p2_h1s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p2_h2s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p2_h3s" contenteditable="true" inputmode="decimal"></td>
-	<td contenteditable="false">9</td>
-	<td id="p2s" contenteditable="false"></td>
-	</tr>
-
-	<tr>
-	<td contenteditable="true">Player 3</td>
-	<td id="p3_h1s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p3_h2s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p3_h3s" contenteditable="true" inputmode="decimal"></td>
-	<td contenteditable="false">9</td>
-	<td id="p3s" contenteditable="false"></td>
-	</tr>
-
-	<tr>
-	<td contenteditable="true">Player 4</td>
-	<td id="p4_h1s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p4_h2s" contenteditable="true" inputmode="decimal"></td>
-	<td id="p4_h3s" contenteditable="true" inputmode="decimal"></td>
-	<td contenteditable="false">9</td>
-	<td id="p4s" contenteditable="false"></td>
-	</tr>
-
+		<tr>
+		<th class="bg-primary">Player</th>
+		<th class="bg-primary">1</th>
+		<th class="bg-primary">2</th>
+		<th class="bg-primary">3</th>
+		<th class="bg-primary">4</th>
+		<th class="bg-primary">5</th>
+		<th class="bg-primary">6</th>
+		<th class="bg-primary">Par</th>
+		<th class="bg-primary">Score</th>
+		</tr>
+	
+		<tr>
+		<td contenteditable="true">Player 1</td>
+		<td id="p1_h1s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p1_h2s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p1_h3s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p1_h4s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p1_h5s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p1_h6s" contenteditable="true" inputmode="decimal"></td>
+		<td contenteditable="false">18</td>
+		<td id="p1s" contenteditable="false"></td>
+		</tr>
+	
+		<tr>
+		<td contenteditable="true">Player 2</td>
+		<td id="p2_h1s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p2_h2s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p2_h3s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p2_h4s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p2_h5s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p2_h6s" contenteditable="true" inputmode="decimal"></td>
+		<td contenteditable="false">18</td>
+		<td id="p2s" contenteditable="false"></td>
+		</tr>
+	
+		<tr>
+		<td contenteditable="true">Player 3</td>
+		<td id="p3_h1s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p3_h2s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p3_h3s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p3_h4s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p3_h5s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p3_h6s" contenteditable="true" inputmode="decimal"></td>
+		<td contenteditable="false">18</td>
+		<td id="p3s" contenteditable="false"></td>
+		</tr>
+	
+		<tr>
+		<td contenteditable="true">Player 4</td>
+		<td id="p4_h1s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p4_h2s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p4_h3s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p4_h4s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p4_h5s" contenteditable="true" inputmode="decimal"></td>
+		<td id="p4_h6s" contenteditable="true" inputmode="decimal"></td>
+		<td contenteditable="false">18</td>
+		<td id="p4s" contenteditable="false"></td>
+		</tr>
+	
 	</table>
-      </div>
+    </div>
 
 	</br>
 	<button type="button" class="btn btn-danger" onclick="calScore()">Calculate Score</button>
+    </br>
+	</br>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+	<a href="https://www.bucketgolfgame.com/pages/bucket-golf-rules" target="_blank">
+		<button class="button">Rules</button>
+	</a>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
-<!-- my script -->
-<script>
-	function calScore(button) {
+	<!-- my script -->
+	<script src="cal_player_score.js"></script>
 
-	var p1_h1_score = document.getElementById("p1_h1s").innerHTML;
-	var p1_h2_score = document.getElementById("p1_h2s").innerHTML;
-	var p1_h3_score = document.getElementById("p1_h3s").innerHTML;
-	var sum_p1 = (Number(p1_h1_score) + Number(p1_h2_score) + Number(p1_h3_score) ) - 9;
-
-	if (sum_p1 == 0){
-
-	sum_p1 = "PAR";
-	}
-
-	document.getElementById("p1s").innerHTML = sum_p1;
-
-	var p2_h1_score = document.getElementById("p2_h1s").innerHTML;
-	var p2_h2_score = document.getElementById("p2_h2s").innerHTML;
-	var p2_h3_score = document.getElementById("p2_h3s").innerHTML;
-	var sum_p2 = (Number(p2_h1_score) + Number(p2_h2_score) + Number(p2_h3_score) ) - 9;
-
-	if (sum_p2 == 0){
-
-	sum_p2 = "PAR";
-	}
-
-	document.getElementById("p2s").innerHTML = sum_p2;
-
-	var p3_h1_score = document.getElementById("p3_h1s").innerHTML;
-	var p3_h2_score = document.getElementById("p3_h2s").innerHTML;
-	var p3_h3_score = document.getElementById("p3_h3s").innerHTML;
-	var sum_p3 = (Number(p3_h1_score) + Number(p3_h2_score) + Number(p3_h3_score) ) - 9;
-
-	if (sum_p3 == 0){
-
-	sum_p3 = "PAR";
-	}
-
-	document.getElementById("p3s").innerHTML = sum_p3;
-
-	var p4_h1_score = document.getElementById("p4_h1s").innerHTML;
-	var p4_h2_score = document.getElementById("p4_h2s").innerHTML;
-	var p4_h3_score = document.getElementById("p4_h3s").innerHTML;
-	var sum_p4 = (Number(p4_h1_score) + Number(p4_h2_score) + Number(p4_h3_score) ) - 9
-
-	if (sum_p4 == 0){
-
-	sum_p4 = "PAR";
-	}
-
-	document.getElementById("p4s").innerHTML = sum_p4;
-
-	}
-
-</script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
