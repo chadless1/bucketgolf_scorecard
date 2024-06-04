@@ -1,0 +1,20 @@
+body {
+
+  padding: 20px;
+  background-image: url("/img/golf_course.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+td {
+
+	text-align: center;
+}
+table {
+
+	background-color: white;
+}
+img {
+
+	width: 100%;
+}
