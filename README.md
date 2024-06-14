@@ -1,11 +1,11 @@
 
 # Bucket Golf Scorecard
 
-scorecard for bucketgolf
+a simple scorecard for bucketgolf.
 
-track your score for 6 holes
+track your score for 6 holes.
 
-every hole is a par 3
+every hole is a par 3.
 
 lowest score wins!
 
@@ -13,7 +13,7 @@ lowest score wins!
 
 ![ScreenShot](screenshot.png)
 
-### TODO:
+### TO-DO:
 
 - add dropdown for more course options / game modes
 - retain data on refresh to not lose scores
