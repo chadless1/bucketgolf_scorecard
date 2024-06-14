@@ -14,14 +14,6 @@
     <title>BucketGolf Scorecard</title>
 
   </head>
-  <style>
-
-	body{
-
-		background-image: url(img/golf_course.jpeg);
-	}
-
-  </style>
   <body>
 	<div class="jumbotron">
 		<a href="https://www.bucketgolfgame.com/" target="_blank">
@@ -53,12 +45,12 @@
 		<!-- Player 1 cells -->
 		<tr>
 		<td contenteditable="true">Player 1</td>
-		<td id="p1_h1s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p1_h2s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p1_h3s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p1_h4s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p1_h5s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p1_h6s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p1_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
 		<td contenteditable="false">18</td>
 		<td id="p1s" contenteditable="false"></td>
 		</tr>
@@ -66,12 +58,12 @@
 		<!-- Player 2 cells -->
 		<tr>
 		<td contenteditable="true">Player 2</td>
-		<td id="p2_h1s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p2_h2s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p2_h3s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p2_h4s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p2_h5s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p2_h6s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p2_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
 		<td contenteditable="false">18</td>
 		<td id="p2s" contenteditable="false"></td>
 		</tr>
@@ -79,12 +71,12 @@
 		<!-- Player 3 cells -->
 		<tr>
 		<td contenteditable="true">Player 3</td>
-		<td id="p3_h1s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p3_h2s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p3_h3s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p3_h4s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p3_h5s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p3_h6s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p3_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
 		<td contenteditable="false">18</td>
 		<td id="p3s" contenteditable="false"></td>
 		</tr>
@@ -92,26 +84,21 @@
 		<!-- Player 4 cells -->
 		<tr>
 		<td contenteditable="true">Player 4</td>
-		<td id="p4_h1s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p4_h2s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p4_h3s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p4_h4s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p4_h5s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
-		<td id="p4_h6s" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
+		<td class="p4_hs" contenteditable="true" inputmode="decimal" oninput="calScore()"></td>
 		<td contenteditable="false">18</td>
 		<td id="p4s" contenteditable="false"></td>
 		</tr>
 	
 	</table>
     </div>
-
-	</br>
-	<!--
-	<button type="button" class="btn btn-danger" onclick="calScore()">Calculate Score</button>
--->
     </br>
 	</br>
-
+	<!-- Rules Button -->
 	<a href="https://www.bucketgolfgame.com/pages/bucket-golf-rules" target="_blank">
 		<button class="button">Rules</button>
 	</a>
